@@ -13,8 +13,8 @@ The plugins are managed by [VIM-Plug](https://github.com/junegunn/vim-plug).
 5. `vim +PlugInstall` to install all of the plugins.
 
 ## Requirements
-1. Install Jedi [pip install jedi]
-2. Install Flake8 [pip install flake8]
+1. Install Jedi `pip install jedi`
+2. Install Flake8 `pip install flake8`
 
 ## Plugin List
 
