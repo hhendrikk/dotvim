@@ -15,7 +15,7 @@
 " }
 
 " UI {
-    set guifont=Inconsolata:h11
+    set guifont=Inconsolata-dz\ for\ Powerline\ Medium\ 12
     set background=dark
     set relativenumber
     set number
