@@ -15,7 +15,7 @@
 " }
 
 " UI {
-    set guifont=Inconsolata-dz\ for\ Powerline\ Medium\ 12
+    set guifont=Inconsolata\ for\ Powerline\ Medium:h12
     set background=dark
     set relativenumber
     set number
@@ -32,6 +32,8 @@
     set nojoinspaces                " Prevents inserting two spaces after punctuation on a join (J)
     set splitright                  " Puts new vsplit windows to the right of the current
     set splitbelow                  " Puts new split windows to the bottom of the current
+
+    set foldmethod=indent           " set folding indent
     
     
     autocmd BufNewFile,BufRead *.py set tabstop=4 softtabstop=4 shiftwidth=4 textwidth=79 expandtab autoindent fileformat=unix " PEP8

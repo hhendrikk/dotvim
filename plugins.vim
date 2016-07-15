@@ -1,5 +1,8 @@
 call plug#begin('~/.vim/plugged')
 
+Plug 'scrooloose/nerdcommenter'
+Plug 'majutsushi/tagbar'
+Plug 'mattn/emmet-vim'
 Plug 'scrooloose/nerdtree'
 Plug 'jlanzarotta/bufexplorer' 
 Plug 'kien/ctrlp.vim'
