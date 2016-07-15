@@ -1,5 +1,6 @@
 call plug#begin('~/.vim/plugged')
 
+Plug 'easymotion/vim-easymotion'
 Plug 'scrooloose/nerdcommenter'
 Plug 'majutsushi/tagbar'
 Plug 'mattn/emmet-vim'
