@@ -34,7 +34,7 @@
     set splitbelow                  " Puts new split windows to the bottom of the current
 
     set foldmethod=indent           " set folding indent
-    
+    set foldlevelstart=1
     
     autocmd BufNewFile,BufRead *.py set tabstop=4 softtabstop=4 shiftwidth=4 textwidth=79 expandtab autoindent fileformat=unix " PEP8
     
