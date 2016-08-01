@@ -39,3 +39,4 @@ That is the list of plugins used on my config.
 * [vim-snippets](https://github.com/tpope/vim-snippets) - vim-snipmate default snippets (Previously snipmate-snippets).
 * [digitaltoad/vim-pug](https://github.com/digitaltoad/vim-pug) - Vim Pug (formerly Jade) template engine syntax highlighting and indention.
 * [airblade/vim-gitgutter](https://github.com/airblade/vim-gitgutter) - A Vim plugin which shows a git diff in the gutter (sign column) and stages/undoes hunks..
+* [tpope/vim-fugitive](https://github.com/tpope/vim-fugitive) - a Git wrapper so awesome, it should be illegal

@@ -15,7 +15,7 @@
 " }
 
 " UI {
-    set guifont=Inconsolata\ for\ Powerline\ Medium:h12
+    set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h10
     set background=dark
     set relativenumber
     set number
@@ -33,7 +33,7 @@
     set splitright                  " Puts new vsplit windows to the right of the current
     set splitbelow                  " Puts new split windows to the bottom of the current
 
-    set foldmethod=indent           " set folding indent
+    set foldmethod=syntax           " set folding syntax
     set foldlevelstart=1
     
     autocmd BufNewFile,BufRead *.py set tabstop=4 softtabstop=4 shiftwidth=4 textwidth=79 expandtab autoindent fileformat=unix " PEP8
