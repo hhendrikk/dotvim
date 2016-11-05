@@ -49,3 +49,27 @@
     let g:ctrlp_max_files=0
     let g:ctrlp_max_depth=40
 " }
+
+" Vim-GO {
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_types = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
+
+let g:go_fmt_command = "goimports"
+
+let g:syntastic_go_checkers = ['golint', 'govet', 'errcheck']
+let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
+
+let g:go_list_type = "quickfix"
+" }
+
+" SimpleAutoComplPop {
+autocmd FileType go call sacp#enableForThisBuffer({ "matches": [
+                \ { '=~': '\v[a-zA-Z]{4}$' , 'feedkeys': "\<C-x>\<C-n>"} ,
+                \ { '=~': '\.$'            , 'feedkeys': "\<C-x>\<C-o>", "ignoreCompletionMode":1} ,
+                \ ]
+                \ })
+" }

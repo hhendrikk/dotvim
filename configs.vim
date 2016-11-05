@@ -15,7 +15,7 @@
 " }
 
 " UI {
-    set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 10
+    set guifont=Source\ Code\ Pro\ ExtraLight:h14
     set background=dark
     set relativenumber
     set number

@@ -18,5 +18,7 @@ Plug 'honza/vim-snippets'
 Plug 'digitaltoad/vim-pug'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
+Plug 'fatih/vim-go'
+Plug 'roxma/SimpleAutoComplPop'
 
 call plug#end()
