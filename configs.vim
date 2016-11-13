@@ -30,16 +30,14 @@
     set tabstop=4                   " An indentation every four columns
     set softtabstop=4               " Let backspace delete indent
     set nojoinspaces                " Prevents inserting two spaces after punctuation on a join (J)
-    set splitright                  " Puts new vsplit windows to the right of the current
-    set splitbelow                  " Puts new split windows to the bottom of the current
-
+    
     set foldmethod=syntax           " set folding syntax
-    set foldlevelstart=1
-    
-    autocmd BufNewFile,BufRead *.py set tabstop=4 softtabstop=4 shiftwidth=4 textwidth=79 expandtab autoindent fileformat=unix " PEP8
-    
-    autocmd BufNewFile,BufRead *.js,*.html,*.css set tabstop=2 softtabstop=2 shiftwidth=2 " Web
-    
-    autocmd BufEnter *.py highlight BadWhitespace ctermbg=red guibg=red
-    autocmd BufEnter *.py match BadWhitespace /\s\+$/
+    set foldnestmax=10              "deepest fold is 10 levels
+    set nofoldenable                "dont fold by default
+    set foldlevel=1                 "this is just what i use
+" }
+
+" Auto CMD {
+    autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
+    autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 " }
