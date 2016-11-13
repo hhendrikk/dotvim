@@ -23,7 +23,7 @@
 
 " NERDTree {
     map <C-n> :NERDTreeToggle<CR>
-    let NERDTreeIgnore=['\.pyc$', '\~$', '__pycache__$']
+    let NERDTreeIgnore=['\.pyc$', '\~$', '__pycache__$', '\.git']
     let NERDTreeShowHidden=1
 " }
 
