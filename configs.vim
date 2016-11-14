@@ -15,10 +15,15 @@
 " }
 
 " UI {
-    set guifont=Source\ Code\ Pro\ ExtraLight:h14
+    if has("win32")
+      set guifont=Source\ Code\ Pro\ Light:h10
+    else
+      set guifont=Source\ Code\ Pro\ ExtraLight:h14
+    endif
+
     set background=dark
-    set relativenumber
     set number
+    set relativenumber
     colorscheme solarized
 " }
 
