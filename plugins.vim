@@ -15,5 +15,6 @@ Plug 'MarcWeber/vim-addon-mw-utils' "Addiction to vim-snipmate
 Plug 'tomtom/tlib_vim' "Addiction to vim-snipmate
 Plug 'honza/vim-snippets'
 Plug 'pangloss/vim-javascript'
+Plug 'dracula/vim'
 
 call plug#end()

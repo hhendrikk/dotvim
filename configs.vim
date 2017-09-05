@@ -12,10 +12,6 @@
     set clipboard=unnamed
     set backspace=indent,eol,start
     set guioptions=0
-
-    if has("win32")
-      set shell="C:\Program\ Files\Git\bin\sh.exe"
-    endif
 " }
 
 " UI {
@@ -25,16 +21,15 @@
       set guifont=Source\ Code\ Pro\ ExtraLight:h14
     endif
 
-    set background=dark
     set number
     set relativenumber
-    colorscheme solarized
+    color dracula
 " }
 
 " Formatting {
     set nowrap                      " Do not wrap long lines
     set autoindent                  " Indent at the same level of the previous line
-    set shiftwidth=2                " Use indents of 4 spaces
+    set shiftwidth=4                " Use indents of 4 spaces
     set expandtab                   " Tabs are spaces, not tabs
     set tabstop=2                   " An indentation every four columns
     set softtabstop=2               " Let backspace delete indent
