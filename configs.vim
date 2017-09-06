@@ -12,11 +12,17 @@
     set clipboard=unnamed
     set backspace=indent,eol,start
     set guioptions=0
+    
+    if has("gui_running")
+      " Maximize gvim window
+      set lines=999 columns=999
+    endif
+
 " }
 
 " UI {
     if has("win32")
-      set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h10
+      set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h12
     else
       set guifont=Source\ Code\ Pro\ ExtraLight:h14
     endif
