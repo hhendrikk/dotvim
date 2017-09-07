@@ -16,5 +16,10 @@ Plug 'tomtom/tlib_vim' "Addiction to vim-snipmate
 Plug 'honza/vim-snippets'
 Plug 'pangloss/vim-javascript'
 Plug 'dracula/vim'
+Plug 'Quramy/tsuquyomi'
+Plug 'leafgarland/typescript-vim'
+Plug 'Quramy/vim-js-pretty-template'
+Plug 'jason0x43/vim-js-indent'
+Plug 'Quramy/vim-dtsm'
 
 call plug#end()

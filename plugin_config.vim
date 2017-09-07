@@ -34,6 +34,14 @@
     let g:ctrlp_show_hidden = 1
 " }
 
+" YouCompleteMe {
+    if !exists("g:ycm_semantic_triggers")
+        let g:ycm_semantic_triggers = {}
+    endif
+
+    let g:ycm_semantic_triggers['typescript'] = ['.']
+" }
+
 " TernJS {
     "enable keyboard shortcuts
     let g:tern_map_keys=1
@@ -46,4 +54,8 @@
     "to prevent clash with youcompleteme, change snippet trigger
     imap <C-s> <esc>a<Plug>snipMateNextOrTrigger
     smap <C-s> <Plug>snipMateNextOrTrigger
+" }
+
+" VimJsPrettyTemplate {
+    autocmd FileType javascript JsPreTmpl html
 " }
