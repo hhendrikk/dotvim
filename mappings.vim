@@ -6,4 +6,10 @@ let mapleader = ","
   autocmd FileType typescript nmap <buffer> <Leader>E <Plug>(TsuquyomiRenameSymbolC)
   autocmd FileType typescript nmap <buffer> <F12> <Plug>(TsuquyomiDefinition)
 "}
-             
+
+" Disable Arrows {
+  noremap <Up> <NOP>
+  noremap <Down> <NOP>
+  noremap <Left> <NOP>
+  noremap <Right> <NOP>
+" }
