@@ -28,7 +28,7 @@
 
 " UI {
     if has("win32")
-      set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h10
+      set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h12
     else
       set guifont=Source\ Code\ Pro\ ExtraLight:h14
     endif
