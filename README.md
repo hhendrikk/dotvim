@@ -16,5 +16,3 @@ The plugins are managed by [VIM-Plug](https://github.com/junegunn/vim-plug).
 4. `ln -s ~/.vim/vimrc ~/.vimrc` to make the .vimrc link on your home.
 5. Install [VIM-Plug](https://github.com/junegunn/vim-plug) with `curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim`
 6. `vim +PlugInstall` to install all of the plugins.
-7. `~/.vim/plugged/YouCompleteMe/install.py --tern-completer` to install tern completer on YouCompleteMe
-
