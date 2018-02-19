@@ -44,7 +44,7 @@
 
 " Emmet {
     let g:user_emmet_leader_key='<C-Y>'
-    let g:user_emmet_settings = webapi#json#decode(join(readfile(expand('~/.vim/snippets/emmet.json')), "\n"))
+    let g:user_emmet_settings=webapi#json#decode(join(readfile(expand('~/.vim/snippets/emmet.json')), "\n"))
 " }
 
 " Indent Guides {
