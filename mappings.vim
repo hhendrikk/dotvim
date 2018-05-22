@@ -22,7 +22,3 @@ let mapleader = ","
 " Toggle indent {
   nmap <leader>ti <Plug>IndentGuidesToggle
 " }
-
-" [,ts] Toggle Syntastic {
-  nmap <leader>ts :SyntasticToggleMode<CR>
-" }

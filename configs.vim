@@ -5,15 +5,15 @@
     set mouse=a
     set mousehide
     set encoding=utf-8
-    
+
     set nobackup            " Disable backup
     set nowritebackup
     set noswapfile          " Disable swap
-    
+
     set clipboard=unnamed
     set backspace=indent,eol,start
     set guioptions=0
-    
+
     if has("gui_running")
       " Maximize gvim window
       set lines=999 columns=999
@@ -27,22 +27,19 @@
 " }
 
 " UI {
-    if has("win32")
-      set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h12
-    else
-      set guifont=Source\ Code\ Pro\ ExtraLight:h14
-    endif
-
     set number
     set relativenumber
-    color dracula
 
     set lazyredraw
+
+    if has("gui_running")
+      set guifont=Fira\ Code:h11
+      colorscheme cobalt2
+    endif
 " }
 
 " Formatting {
     set colorcolumn=73
-    set cursorline
     set encoding=utf-8 nobomb
     set history=5000
     set laststatus=2
@@ -53,18 +50,13 @@
     set tabstop=2                   " An indentation every four columns
     set softtabstop=2               " Let backspace delete indent
     set nojoinspaces                " Prevents inserting two spaces after punctuation on a join (J)
-    
+
     set foldmethod=syntax           " set folding syntax
     set foldnestmax=10              "deepest fold is 10 levels
     set nofoldenable                "dont fold by default
     set foldlevel=1                 "this is just what i use
 
-    set list listchars=tab:▸\ ,trail:·,eol:↴,nbsp:_
-    
-    set hlsearch
-" }
+    set list listchars=tab:»\ ,trail:·,eol:¶,nbsp:_
 
-" Auto CMD {
-    autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
-    autocmd InsertLeave * if pumvisible() == 0|pclose|endif
+    set hlsearch
 " }
