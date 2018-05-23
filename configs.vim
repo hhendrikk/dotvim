@@ -39,7 +39,7 @@
 " }
 
 " Formatting {
-    set colorcolumn=73
+    set colorcolumn=80
     set encoding=utf-8 nobomb
     set history=5000
     set laststatus=2
@@ -56,7 +56,15 @@
     set nofoldenable                "dont fold by default
     set foldlevel=1                 "this is just what i use
 
-    set list listchars=tab:»\ ,trail:·,eol:¶,nbsp:_
+    set list listchars=tab:→\ ,trail:·,eol:¬,nbsp:_
 
     set hlsearch
+
+    :autocmd InsertEnter * set cul
+    :autocmd InsertLeave * set nocul
+" }
+
+" OmniSharp {
+   set completeopt=longest,menuone,preview
+   set previewheight=5
 " }

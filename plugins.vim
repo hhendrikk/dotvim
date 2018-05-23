@@ -10,4 +10,10 @@ Plug 'itchyny/lightline.vim'
 Plug 'flazz/vim-colorschemes'
 Plug 'tpope/vim-fugitive'
 
+" Plugins para o OmniSharp
+Plug 'OmniSharp/omnisharp-vim'
+Plug 'tpope/vim-dispatch'
+Plug 'Shougo/vimproc.vim', {'do' : 'make'}
+Plug 'vim-syntastic/syntastic'
+
 call plug#end()
