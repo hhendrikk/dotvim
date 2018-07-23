@@ -9,11 +9,11 @@ Plug 'scrooloose/nerdtree'
 Plug 'itchyny/lightline.vim'
 Plug 'flazz/vim-colorschemes'
 Plug 'tpope/vim-fugitive'
-
-" Plugins para o OmniSharp
-Plug 'OmniSharp/omnisharp-vim'
-Plug 'tpope/vim-dispatch'
-Plug 'Shougo/vimproc.vim', {'do' : 'make'}
-Plug 'vim-syntastic/syntastic'
+Plug 'ternjs/tern_for_vim'
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
+Plug 'w0rp/ale'
+Plug 'tomtom/tcomment_vim'
 
 call plug#end()

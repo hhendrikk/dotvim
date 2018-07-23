@@ -14,11 +14,3 @@ let mapleader = ","
 " Comment Toggle [,cc] {
   map <leader>cc :TComment<CR>
 " }
-
-" JSHint code [,h] {
-  nmap <leader>h :JSHint<CR>
-" }
-
-" Toggle indent {
-  nmap <leader>ti <Plug>IndentGuidesToggle
-" }

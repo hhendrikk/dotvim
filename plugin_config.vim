@@ -40,39 +40,20 @@
     let g:user_emmet_settings=webapi#json#decode(join(readfile(expand('~/.vim/snippets/emmet.json')), "\n"))
 " }
 
-" Omnisharp {
-    let g:OmniSharp_server_path = '/home/hendrik/.omnisharp.http-linux-x64/run'
-    let g:syntastic_cs_checkers = ['code_checker']
-    let g:OmniSharp_selector_ui = 'ctrlp'  " Use ctrlp.vim
-
-
-    set updatetime=500
-
-    sign define OmniSharpCodeActions text=💡
-
-    augroup OSCountCodeActions
-      autocmd!
-      autocmd FileType cs set signcolumn=yes
-      autocmd CursorHold *.cs call OSCountCodeActions()
-    augroup END
-
-    function! OSCountCodeActions() abort
-      if OmniSharp#CountCodeActions({-> execute('sign unplace 99')})
-        let l = getpos('.')[1]
-        let f = expand('%:p')
-        execute ':sign place 99 line='.l.' name=OmniSharpCodeActions file='.f
-      endif
-    endfunction
-
+" YouCompleteMe {
+ let g:ycm_min_num_of_chars_for_completion = 4
+ let g:ycm_min_num_identifier_candidate_chars = 4
+ let g:ycm_enable_diagnostic_highlighting = 0
+ " Don't show YCM's preview window [ I find it really annoying ]
+ set completeopt-=preview
+ let g:ycm_add_preview_to_completeopt = 0
 " }
 
-" Syntastic {
-    set statusline+=%#warningmsg#
-    set statusline+=%{SyntasticStatuslineFlag()}
-    set statusline+=%*
-
-    let g:syntastic_always_populate_loc_list = 1
-    let g:syntastic_auto_loc_list = 1
-    let g:syntastic_check_on_open = 1
-    let g:syntastic_check_on_wq = 0
+" Ale {
+ let g:ale_sign_error = '●' " Less aggressive than the default '>>'
+ let g:ale_sign_warning = '.'
+ let g:ale_lint_on_enter = 0 " Less distracting when opening a new file
+ let g:ale_linters = {
+       \   'javascript': ['standard'],
+       \}
 " }
