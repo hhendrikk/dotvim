@@ -111,6 +111,4 @@
 " }
 
 " UI {
-    set background=dark            " Use colors that look good
-                                   " on a dark background
 " }

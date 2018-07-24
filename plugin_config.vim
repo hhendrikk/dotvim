@@ -1,24 +1,6 @@
-" Lightline{
-
-    set laststatus=2
-
-    let g:lightline = {
-        \ 'colorscheme': 'powerline',
-        \ 'active': {
-        \   'left': [ [ 'mode', 'paste' ],
-        \             [ 'fugitive', 'filename'] ]
-        \ },
-        \ 'separator': { 'left': '', 'right': '' },
-        \ 'subseparator': { 'left': '', 'right': '' },
-        \ 'component': {
-        \   'fugitive': '%{exists("*fugitive#head")&&strlen(fugitive#head())?'.
-        \               '"\ue0a0 ".fugitive#head():""}'
-        \ },
-        \ 'component_visible_condition': {
-        \   'fugitive': '(exists("*fugitive#head") && ""!=fugitive#head())'
-        \ },
-        \ }
-
+" Airline {
+  set laststatus=2
+  let g:airline_theme='angr'
 " }
 
 " NERDTree {
