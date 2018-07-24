@@ -1,7 +1,7 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'editorconfig/editorconfig-vim'
-Plug 'kien/ctrlp.vim'
+Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mattn/emmet-vim'
 Plug 'mattn/webapi-vim'
 Plug 'othree/html5.vim'
@@ -15,5 +15,6 @@ Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'w0rp/ale'
 Plug 'tomtom/tcomment_vim'
+Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
