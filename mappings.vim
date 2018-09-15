@@ -14,3 +14,8 @@ let mapleader = ","
 " Comment Toggle [,cc] {
   map <leader>cc :TComment<CR>
 " }
+
+" Remap jj do esc {
+  inoremap jj <Esc>
+  inoremap <Esc> <Nop>
+" }

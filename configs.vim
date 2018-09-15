@@ -29,7 +29,7 @@
                                    " put a `$` sign at the end of
                                    " the changed text
 
-    set colorcolumn=73             " Highlight certain column(s)
+    set colorcolumn=80             " Highlight certain column(s)
     set directory=~/.vim/swaps     " Set directory for swap files
 
     set encoding=utf-8 nobomb      " Use UTF-8 without BOM
