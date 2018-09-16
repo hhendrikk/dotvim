@@ -111,4 +111,5 @@
 " }
 
 " UI {
+    color dracula
 " }
