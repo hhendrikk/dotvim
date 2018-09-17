@@ -108,6 +108,8 @@
                                    " match highlighted)
 
     set winminheight=0             " Allow windows to be squashed
+    
+    set autoread                   " Reload files
 " }
 
 " UI {
