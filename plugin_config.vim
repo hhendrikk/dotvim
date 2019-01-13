@@ -39,3 +39,7 @@
        \   'javascript': ['standard'],
        \}
 " }
+
+" Rust {
+let g:rustfmt_autosave = 1
+" }
