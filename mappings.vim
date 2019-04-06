@@ -16,6 +16,6 @@ let mapleader = ","
 " }
 
 " Remap jj do esc {
-  inoremap jj <Esc>
+  inoremap jk <Esc>
   inoremap <Esc> <Nop>
 " }
