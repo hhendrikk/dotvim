@@ -113,5 +113,15 @@
 " }
 
 " UI {
+    if has('gui_running')
+      set guioptions-=T
+      au GUIEnter * simalt ~x
+      set guifont=FuraCode\ Nerd\ Font\ Mono:h14
+    endif
     color dracula
+" }
+
+" PYTHON {
+    set pythonthreedll=C:\Python38\python38.dll
+    set pythonthreehome=C:\Python38
 " }
