@@ -10,7 +10,7 @@ The plugins are managed by [VIM-Plug](https://github.com/junegunn/vim-plug).
 
 ## Installation
 
-1. Clone the repo with `git clone https://github.com/0v3lh4/dotvim ~/.vim`
+1. Clone the repo with `git clone https://github.com/hhendrikk/dotvim ~/.vim`
 2. `cd ~/.vim`
 3. `md backups`
 4. `md swaps`
